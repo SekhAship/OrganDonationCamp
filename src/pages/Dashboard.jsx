@@ -1,5 +1,5 @@
 import Navbar from "../components/headers/Navbar";
-import Footer from "../components/footers/footer";
+
 import { useEffect, useState } from "react";
 import { Form, Modal } from 'antd';
 import toast from "react-hot-toast";
@@ -260,7 +260,7 @@ const onFinishP = async (values) => {
              
 
             </>
-          <Footer />
+          
       </div>
     </div>
   );
